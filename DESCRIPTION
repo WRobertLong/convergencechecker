@@ -1,0 +1,23 @@
+Package:     convergencechecker
+Type:        Package
+Title:       Convergence Checker for Models with Random Effects
+Version:     0.1.0
+Author:      W Robert Long
+Maintainer:  W Robert Long <longrob604 _AT_ gmail.com>
+Description: This package provides functions to assess the convergence status of 
+             models fitted using popular R packages, such as lme4, nlme, and 
+             glmmTMB. It checks for issues related to non-convergence, singular 
+             fits, and near-zero random effect variances, helping users diagnose 
+             model fitting problems. Designed for mixed-effect models and models 
+             with random effects, the package automates convergence checking, 
+             providing informative warnings and guidance.
+License:     MIT
+Encoding:   UTF-8
+LazyData:   true
+
+Imports:
+  lme4,
+  glmmTMB,
+  nlme
+  
+  

@@ -1,0 +1,11 @@
+# Ignore test scripts and temp files
+test_convergence_checkers.R
+package_installations.R
+
+# R-specific files
+.Rhistory
+.RData
+
+.Rproj.user/
+renv/staging
+
